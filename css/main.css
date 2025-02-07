@@ -270,7 +270,7 @@ body{
 }
 
 .our::after{
-    content: ;
+    content: "";
     display: block;
 }
 
@@ -287,7 +287,7 @@ letter-spacing: 3.4px;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    line-height: 48px; /* 300% */
+    line-height: 3; /* 300% */
 
     border-radius: 24px;
     background: #202020;
@@ -295,3 +295,24 @@ letter-spacing: 3.4px;
     height: 48px;   
 }
 
+.walk-eatem{
+    color: #737373;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.54; /* 154.762% */
+
+    margin-bottom: 4px;
+    margin-top: 11px;
+}
+
+.wal-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.walking{
+    display: flex;
+    justify-content: center;
+}
