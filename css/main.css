@@ -47,6 +47,7 @@ body{
 .header-img{
     width: 121px;
     height: 16px;
+    fill: #202020;
 }
 
 .header-items{
@@ -56,6 +57,26 @@ body{
 .header-btn{
     background-color: transparent;
     border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-btn:hover{
+    background-color: aqua;
+    .header-ikon{
+        fill: #FFF;
+    }
+}
+
+.header-ikon{
+    fill: #000000;
+
+    width: 36px;
+    height: 16px;
 }
 
 .hero{
