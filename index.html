@@ -74,7 +74,7 @@
               Our new Outdoors collection is built to keep you Doing Things when
               the going gets chilly.
             </p>
-            <button type="button" class="hero-btn">Shop — Outdoors</button>
+            <button type="button" class="hero-btn" data-modal-open>Shop — Outdoors</button>
           </div>
         </div>
       </section>
@@ -182,5 +182,38 @@
       </section>
 
     </main>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="model">
+        <button type="button" class="model-close" data-modal-close></button>
+      
+        <form class="model-form">
+          <h2 class="moddel-text">Залиште свої дані, ми вам передзвонимо</h2>
+
+          <label class= "model-label">Ім'я
+            <input type="text" class="model-input">
+          </label >
+
+          <label class="model-label">Телефон
+            <input type="tel" class="model-input">
+          </label>
+
+          <label class="model-label">Пошта
+            <input type="email" class="model-input">
+          </label>
+
+          <label class="model-label">Коментар
+            <textare placeholder="Введіть текст" class="mobel-comen"> </textare>
+          </label>
+
+          <input type="checkbox" class="model-chek">
+          <p class="moddel-text">Погоджуюся з розсилкою та приймаю</p>
+          <a href="model-link" class="">Умови договору</a>
+          <button type="submit" class="model-btn">Відправити</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/model.js"></script>
+
+
   </body>
 </html>
